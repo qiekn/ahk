@@ -1,9 +1,10 @@
-﻿Run %A_ScriptDir%\hhkb.ahk
-;Run %A_ScriptDir%\WindowShading.ahk
-;Run %A_ScriptDir%\EverNote-editor.ahk
-Run %A_ScriptDir%\HotStringAssistant.ahk
-Run %A_ScriptDir%\EasyWindowDrag.ahk
+﻿Run %A_ScriptDir%\core\hhkb.ahk
+Run %A_ScriptDir%\core\hot_string_assistant.ahk
+Run %A_ScriptDir%\core\easy_window_drag.ahk
 
+Run %A_ScriptDir%\espanso\sentences.ahk
+Run %A_ScriptDir%\espanso\shortcuts.ahk
+Run %A_ScriptDir%\espanso\time.ahk
 
 SelfKill =
 (

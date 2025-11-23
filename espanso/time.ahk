@@ -1,7 +1,4 @@
-﻿::btw::by the way
-::shsf::Stay hungry,stay folish
-
-:*:;dd::
+﻿:*:;dd::
     d =%A_YYYY%-%A_MM%-%A_DD%
     ;_%A_Hour%-%A_Min%-%A_Sec%
     clipboard = %d%
@@ -18,8 +15,3 @@
     clipboard = %ed%
     Send ^v
     return
-
-:*:;git::github.com/qiekn/
-
-:*:youtb::https://youtu.be/
-
