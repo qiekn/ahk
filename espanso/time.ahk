@@ -15,3 +15,8 @@
     clipboard = %ed%
     Send ^v
     return
+:*:timestamp::
+    d =%A_YYYY%-%A_MM%-%A_DD%_%A_Hour%-%A_Min%-%A_Sec% 
+    clipboard = %d%
+    Send ^v
+    return
