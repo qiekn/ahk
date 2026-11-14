@@ -1,7 +1,6 @@
 ﻿CapsLock::Ctrl
 
-LWin::LAlt
-!r::Send {LWinDown}r{LWinUp}
+#IfWinNotActive ahk_exe emacs.exe
 
 ^k::Send {Up}
 ^h::Send {Left}
@@ -11,6 +10,4 @@ LWin::LAlt
 ^!h::Send {Home}
 ^!l::Send {End}
 
-!space::
-Send, {CtrlDown}{Escape}{CtrlUp}
-return
+#IfWinNotActive
